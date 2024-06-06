@@ -1,0 +1,42 @@
+🌊 GLOBAL SOLUTION 🌊
+
+🪸 OCEAN CHECK 🪸
+
+💡 Funcionalidade 💡
+
+Este projeto utiliza um Arduino para monitorar a temperatura ambiente e o nível do mar. Ele usa um sensor de temperatura (DS18B20) e um sensor ultrassônico (HC-SR04) 
+para realizar as medições. Além disso, um módulo RTC (DS1307) é utilizado para fornecer uma referência de tempo para as leituras.
+
+🛠️ Pré-requisitos 🛠️
+
+É imprescindível ter o Arduino IDE instalado em sua máquina para executar os códigos na placa. Conecte os componentes de acordo com o diagrama de circuito incluído no Wowki abaixo.
+
+(https://wokwi.com/projects/399945083799970817)
+
+🔗 Dependências 🔗
+
+- Biblioteca OneWire: Utilizada para comunicação com o sensor de temperatura DS18B20.
+- Biblioteca DallasTemperature: Utilizada para comunicação com o sensor de temperatura DS18B20.
+- Biblioteca RTClib: Utilizada para comunicação com o módulo RTC DS1307.
+
+Certifique-se de instalar as bibliotecas necessárias antes de compilar o código.
+
+🚀 Instalação 🚀
+
+Configure a sua placa Arduino conforme demonstrado no site da Wowki. Faça o download do arquivo script.ino, compile e o seu projeto estará pronto para funcionar!
+
+👷‍♂️ Utilizamos 👷‍♂️
+
+Wowki 🌐
+
+Arduino IDE 🤖
+
+👨‍💻 Autores 👨‍💻
+
+Gustavo Yuji Osugi 💻
+
+Renato Dutra Ferreira de Aguiar 🔢
+
+📺 Segue Aqui o Video no Youtube da contextualização do Projeto
+
+https://youtu.be/DodNSNLvzQU
