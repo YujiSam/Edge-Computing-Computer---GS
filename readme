@@ -4,12 +4,14 @@
 
 💡 Funcionalidade 💡
 
-Este projeto utiliza um Arduino para monitorar a temperatura ambiente e o nível do mar. Ele usa um sensor de temperatura (DS18B20) e um sensor ultrassônico (HC-SR04) 
-para realizar as medições. Além disso, um módulo RTC (DS1307) é utilizado para fornecer uma referência de tempo para as leituras.
+Este projeto utiliza um Arduino para monitorar a temperatura ambiente e o nível do mar. Ele emprega um sensor de temperatura (DS18B20) e um sensor ultrassônico (HC-SR04) 
+para realizar as medições. Além disso, um módulo RTC (DS1307) é utilizado para fornecer uma referência de tempo para as leituras. 
+O sistema realiza uma análise a cada 4 horas da situação do oceano, registrando e comparando os dados para identificar variações significativas.
 
 🛠️ Pré-requisitos 🛠️
 
 É imprescindível ter o Arduino IDE instalado em sua máquina para executar os códigos na placa. Conecte os componentes de acordo com o diagrama de circuito incluído no Wowki abaixo.
+[Atenção: A Simulação abaixo, está modificada para o código ler os sensores a cada 20 segundos (para melhor visualização) invés de 4 horas]
 
 (https://wokwi.com/projects/399945083799970817)
 
@@ -40,3 +42,4 @@ Renato Dutra Ferreira de Aguiar 🔢
 📺 Segue Aqui o Video no Youtube da contextualização do Projeto
 
 https://youtu.be/DodNSNLvzQU
+
